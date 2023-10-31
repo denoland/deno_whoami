@@ -1,0 +1,13 @@
+[package]
+name = "deno_whoami"
+version = "0.1.0"
+edition = "2021"
+
+[target.'cfg(windows)'.dependencies]
+whoami = "1.4"
+
+[target.'cfg(unix)'.dependencies]
+libc = "0.2"
+
+[dev-dependencies]
+whoami = "1.4"
