@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 description = "This crate implements the username() API in Deno Node compat layer."
 license = "MIT"
+repository = "https://github.com/denoland/deno_whoami"
 
 [target.'cfg(windows)'.dependencies]
 whoami = "1.4"
@@ -13,3 +14,4 @@ libc = "0.2"
 
 [dev-dependencies]
 whoami = "1.4"
+
